@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+
 const badge = "";
 const fs = require("fs");
 const questions = require("inquirer");
-// TODO: Create an array of questions for user input
+
 questions
   .prompt([
     {
@@ -66,7 +66,7 @@ questions
       
     fs.writeFile(
       "READ.md",
-      `${badge}
+`${badge}
 # ${response.myTitle}
 
 ## Table of Contents
@@ -103,18 +103,9 @@ Operating under the ${response.myLicense} license.
 ${response.myTest}
 
 ## Questions
-[My Github](https://github.com/${response.myGit})
+[My Github](https://github.com/${response.myGit})    
 Please direct any questions to my email at <${response.myEmail}>`,
 
       (err) => (err ? console.error(err) : console.log("README Created"))
     )
     });
-
-// // TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// // TODO: Create a function to initialize app
-// function init() {}
-
-// // Function call to initialize app
-// init();
