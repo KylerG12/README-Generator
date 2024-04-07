@@ -11,7 +11,7 @@ You will need to install a specific inquirer version. This is detailed in the vi
 
 ## Usage
 
-<iframe src="https://drive.google.com/file/d/1YNhrBfMMZ0u5jdi_c51wTW7mAgA-62HJ/preview" width="640" height="480"></iframe>
+[Video Demonstration](https://drive.google.com/file/d/1YNhrBfMMZ0u5jdi_c51wTW7mAgA-62HJ/preview")
 
 ## Credits
 
