@@ -15,7 +15,7 @@ You will need to install a specific inquirer version. This is detailed in the vi
 
 ## Credits
 
-Utilized license file images from 
+Utilized license file images from <Shields.io>
 
 ## License
 
