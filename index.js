@@ -74,13 +74,13 @@ questions
 
 // Write function
 function appendFile(response) {
-    fs.writeFile( "READ.md",
+    fs.writeFile( "README.md",
 
 `${badge}
 # ${response.myTitle}
 
 ## Table of Contents
-- [Descrition](#description)
+- [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
